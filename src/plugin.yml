@@ -1,0 +1,8 @@
+name: PingTracker
+main: me.itzmarcus.pingtracker.Core
+version: 1.0
+depends: [TitleManager]
+
+commands:
+  pingtracker:
+    description: Ping
