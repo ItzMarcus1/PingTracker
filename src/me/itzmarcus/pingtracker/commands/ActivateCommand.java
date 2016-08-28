@@ -20,7 +20,7 @@ public class ActivateCommand implements CommandExecutor {
     public ActivateCommand(Core instance) {
         plugin = instance;
     }
-    public ArrayList<String> activated = new ArrayList<>();
+    public static ArrayList<String> activated = new ArrayList<>();
     TitleManagerAPI titleManagerAPI = new TitleManagerAPI();
 
     @Override
